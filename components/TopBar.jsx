@@ -9,6 +9,7 @@ export default function TopBar() {
         <Image
           src={uy}
           layout="fill"
+          alt="tu-casa-uruguay"
         />
       </div>
       <a

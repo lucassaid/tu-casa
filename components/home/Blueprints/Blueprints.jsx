@@ -12,14 +12,15 @@ function Blueprint({ title, size, price, image}) {
         {title}
       </h4>
       <p>{size}m²</p>
-      <h4 className="text-blue-500">
+      <h4 className="text-blue-500 mb-3">
         ${price}
       </h4>
-      <div>
-        <img
+      <div className="relative h-72" style={{mixBlendMode: 'multiply'}}>
+        <Image
           src={image}
+          layout="fill"
           objectFit="contain"
-          style={{mixBlendMode: 'multiply'}}
+          alt={`Tu casa - ${title}`}
         />
       </div>
     </div>

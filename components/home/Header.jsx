@@ -5,7 +5,7 @@ const homeImage = (
   <div
     className="md:w-6/12 flex-grow"
   >
-    <Image src={home} />
+    <Image src={home} alt="tu-casa-home" />
   </div>
 )
 
