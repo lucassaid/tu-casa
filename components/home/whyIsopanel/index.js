@@ -1,2 +1,2 @@
-import WhyIsopanel from '.'
+import WhyIsopanel from './WhyIsoPanel'
 export default WhyIsopanel
