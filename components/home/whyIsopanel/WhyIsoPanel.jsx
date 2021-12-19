@@ -7,7 +7,7 @@ export default function WhyIsoPanel({}) {
       {whyIsoPanel.map(reason => (
         <div
           key={reason.title}
-          className="w-full md:w-6/12 text-center my-8 px-10"
+          className="w-full md:w-6/12 text-center my-6 md:my-8 px-10"
         >
           <div className="text-3xl sm:text-4xl lg:text-5xl mb-3">{reason.icon}</div>
           <h3 className="mb-3">{reason.title}</h3>

@@ -24,4 +24,8 @@
   .container {
     @apply max-w-4xl mx-auto px-4;
   }
+
+  .form-control {
+    @apply px-3 md:px-4 py-2 md:py-3 rounded-md;
+  }
 }
