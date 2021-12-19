@@ -4,7 +4,7 @@ export default function MenuIcon({ open }) {
 
   return (
     <div
-      className="flex flex-col justify-between cursor-pointer w-7 h-6"
+      className="flex flex-col justify-between cursor-pointer w-7 h-6 tap-highlight-transparent"
     >
       <Line
         className="origin-left"

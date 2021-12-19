@@ -19,7 +19,7 @@ export default function WeGotYou() {
           typeSpeed={15}
           backSpeed={20}
           backDelay={1000}
-        />
+        />?
       </span>  
       <h3 className="mt-4 text-gray-800">
         <span className="text-amber-500">No te preocupes,</span> te asesoramos y acompañamos en todo el camino.

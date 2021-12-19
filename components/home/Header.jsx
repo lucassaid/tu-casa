@@ -15,7 +15,7 @@ export default function Header() {
       <div className="container z-10 relative md:flex flex-row-reverse gap-8 items-center">
         {homeImage}
         <div className="md:w-7/12">
-          <h2 className="mb-3 mt-5 md:mt-0">
+          <h2 className="mb-3 mt-5 md:mt-0 leading-tight">
             Tener tu <span className="text-lime-500">propia casa</span> es posible
           </h2>
           <h4 className="text-gray-700">

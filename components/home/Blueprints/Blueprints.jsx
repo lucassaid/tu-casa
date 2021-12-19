@@ -5,7 +5,7 @@ function Blueprint({ title, size, price, image}) {
 
   return (
     <div
-      className="border rounded-lg h-full text-center"
+      className="bg-white shadow-xl rounded-lg h-full text-center"
     >
       <div className="h-8" />
       <h4 className="mb-1">
@@ -29,7 +29,7 @@ function Blueprint({ title, size, price, image}) {
 
 export default function Blueprints() {
   return (
-    <div className="flex relative items-stretch w-full gap-6 snap-mandatory snap-x overflow-x-auto scroll-px-20 pb-10">
+    <div className="flex relative items-stretch w-full gap-6 md:gap-10 snap-mandatory snap-x overflow-x-auto scroll-px-20 pb-10">
       {blueprints.map((model, i) => (
         <div
           key={i}
