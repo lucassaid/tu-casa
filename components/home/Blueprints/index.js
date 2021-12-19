@@ -1,2 +1,2 @@
-import BluePrints from '.'
-export default BluePrints
+import Blueprints from '.'
+export default Blueprints

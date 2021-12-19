@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Blueprints from "../components/home/bluePrints/Blueprints"
+import Blueprints from "../components/home/Blueprints"
 import Header from "../components/home/Header"
 import WeGotYou from "../components/home/WeGotYou"
 import WhyIsoPanel from "../components/home/whyIsopanel/WhyIsoPanel"
