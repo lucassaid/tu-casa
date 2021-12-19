@@ -29,11 +29,11 @@ function Blueprint({ title, size, price, image}) {
 
 export default function Blueprints() {
   return (
-    <div className="flex relative items-stretch w-full gap-6 snap-x overflow-x-auto scroll-px-20">
+    <div className="flex relative items-stretch w-full gap-6 snap-mandatory snap-x overflow-x-auto scroll-px-20 pb-10">
       {blueprints.map((model, i) => (
         <div
           key={i}
-          className="w-[70vw] md:w-auto md:flex-1 snap-center shrink-0 first:pl-8 last:pr-8"
+          className="w-[70vw] md:w-auto md:flex-1 snap-always snap-center shrink-0 first:pl-8 last:pr-8"
         >
           <Blueprint {...model} />
         </div>

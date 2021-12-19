@@ -1,4 +1,6 @@
+import { disableBodyScroll, enableBodyScroll, clearAllBodyScrollLocks } from 'body-scroll-lock'
 import { AnimatePresence, motion } from "framer-motion";
+import { useEffect } from "react";
 import { menuItems } from "../data/menu";
 
 const variants = {
@@ -17,6 +19,14 @@ const variants = {
 };
 
 export default function MenuOverlay({ open }) {
+
+  useEffect(() => {
+    if (open) {
+      disableBodyScroll(document.body)
+    } else {
+      enableBodyScroll(document.body)
+    }
+  }, [open])
 
   return (
     <AnimatePresence initial={false}>
